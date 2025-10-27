@@ -1,0 +1,208 @@
+.dashboard {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.dashboard header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard header h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.dashboard header button {
+  padding: 12px 24px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.dashboard header button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+.dashboard-content {
+  padding: 30px;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 25px;
+  border-radius: 15px;
+  color: white;
+}
+
+.summary h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.summary button {
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.summary button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(76, 175, 80, 0.3);
+}
+
+.chart-container {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.expense-table-container {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  overflow-x: auto;
+}
+
+.expense-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0;
+}
+
+.expense-table th {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 15px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.expense-table td {
+  padding: 15px;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 14px;
+}
+
+.expense-table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.expense-table button {
+  margin-right: 8px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 12px;
+  transition: all 0.3s ease;
+}
+
+.expense-table button:first-child {
+  background: linear-gradient(135deg, #FFC107 0%, #FF8F00 100%);
+  color: white;
+}
+
+.expense-table button:first-child:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 10px rgba(255, 193, 7, 0.3);
+}
+
+.expense-table button:last-child {
+  background: linear-gradient(135deg, #DC3545 0%, #C82333 100%);
+  color: white;
+}
+
+.expense-table button:last-child:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 10px rgba(220, 53, 69, 0.3);
+}
+
+@media (max-width: 768px) {
+  .dashboard {
+    padding: 10px;
+  }
+
+  .dashboard header {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .dashboard header h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .summary {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .summary h2 {
+    margin-bottom: 15px;
+  }
+
+  .chart-container {
+    height: 300px;
+    padding: 15px;
+  }
+
+  .expense-table-container {
+    padding: 15px;
+  }
+
+  .expense-table th,
+  .expense-table td {
+    padding: 10px 8px;
+    font-size: 12px;
+  }
+
+  .expense-table button {
+    padding: 6px 12px;
+    font-size: 11px;
+  }
+}
