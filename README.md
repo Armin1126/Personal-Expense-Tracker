@@ -87,6 +87,10 @@ Project Photos:
    
    <img width="1789" height="916" alt="image" src="https://github.com/user-attachments/assets/620d32f6-5137-403c-bffa-fd74600cf688" />
 
+2. Mongo DB
+
+   <img width="1919" height="1076" alt="image" src="https://github.com/user-attachments/assets/5755dfe2-507a-49e0-b76b-bd61cfe54c83" />
+
 
 2. Expense Tracker Dashboard
    
