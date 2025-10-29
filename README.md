@@ -29,7 +29,15 @@ A full-stack web application for tracking personal expenses with user authentica
    cd personal-expense-tracker
    ```
 
-2. **Backend Setup:**
+2. **Set up MongoDB:**
+   - Install MongoDB if not already installed
+   - Start MongoDB service (default port 27017)
+   - Ensure MongoDB is running before starting the backend
+   - Ensure to change application.properties to your MongoDB url
+   - spring.data.mongodb.uri=mongodb://127.0.0.1:27017/test
+     spring.data.mongodb.database=<database-name>
+
+3. **Backend Setup:**
    ```bash
    cd backend
    mvn clean install
@@ -37,7 +45,7 @@ A full-stack web application for tracking personal expenses with user authentica
    ```
    The backend will start on `http://localhost:8080`
 
-3. **Frontend Setup:**
+4. **Frontend Setup:**
    ```bash
    cd frontend
    npm install
