@@ -72,3 +72,11 @@ A full-stack web application for tracking personal expenses with user authentica
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+
+Project Photos:
+1. Login Page
+   <img width="1789" height="916" alt="image" src="https://github.com/user-attachments/assets/620d32f6-5137-403c-bffa-fd74600cf688" />
+
+2. Expense Tracker Dashboard
+   <img width="1352" height="932" alt="image" src="https://github.com/user-attachments/assets/c3acc942-d902-4d8f-8644-7b73e0cb4df9" />
