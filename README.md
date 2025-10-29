@@ -87,22 +87,26 @@ Project Photos:
    
    <img width="1789" height="916" alt="image" src="https://github.com/user-attachments/assets/620d32f6-5137-403c-bffa-fd74600cf688" />
 
-2. Mongo DB
+2. MongoDB for User Login
 
    <img width="1919" height="1076" alt="image" src="https://github.com/user-attachments/assets/5755dfe2-507a-49e0-b76b-bd61cfe54c83" />
 
+3. MongoDB for Expense Tracking
 
-2. Expense Tracker Dashboard
+    <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/376c01ff-7d95-4a80-acd2-ab120dddc457" />
+
+
+4. Expense Tracker Dashboard
    
    <img width="1352" height="932" alt="image" src="https://github.com/user-attachments/assets/c3acc942-d902-4d8f-8644-7b73e0cb4df9" />
 
 
-3. Adding Expense
+5. Adding Expense
 
     <img width="726" height="608" alt="image" src="https://github.com/user-attachments/assets/1ada9b80-d4d6-43fd-96e5-5c5f623ea8dd" />
 
 
-4. Updated Expense Tracker
+6. Updated Expense Tracker
 
    <img width="1336" height="936" alt="image" src="https://github.com/user-attachments/assets/85f7cb67-2f38-4f10-bdd7-260241dfd7be" />
 
