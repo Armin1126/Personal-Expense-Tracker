@@ -1,4 +1,6 @@
 # Personal Expense Tracker
+## Srivatsan T (43120214)
+## JFS ST02
 
 A full-stack web application for tracking personal expenses with user authentication and visualization.
 
@@ -82,7 +84,7 @@ A full-stack web application for tracking personal expenses with user authentica
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 
-Project Photos:
+##Project Photos:
 1. Login Page
    
    <img width="1789" height="916" alt="image" src="https://github.com/user-attachments/assets/620d32f6-5137-403c-bffa-fd74600cf688" />
