@@ -84,7 +84,21 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 Project Photos:
 1. Login Page
+   
    <img width="1789" height="916" alt="image" src="https://github.com/user-attachments/assets/620d32f6-5137-403c-bffa-fd74600cf688" />
 
+
 2. Expense Tracker Dashboard
+   
    <img width="1352" height="932" alt="image" src="https://github.com/user-attachments/assets/c3acc942-d902-4d8f-8644-7b73e0cb4df9" />
+
+
+3. Adding Expense
+
+    <img width="726" height="608" alt="image" src="https://github.com/user-attachments/assets/1ada9b80-d4d6-43fd-96e5-5c5f623ea8dd" />
+
+
+4. Updated Expense Tracker
+
+   <img width="1336" height="936" alt="image" src="https://github.com/user-attachments/assets/85f7cb67-2f38-4f10-bdd7-260241dfd7be" />
+
