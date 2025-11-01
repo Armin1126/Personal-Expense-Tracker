@@ -3,6 +3,8 @@
 ## JFS ST02
 
 A full-stack web application for tracking personal expenses with user authentication and visualization.
+If you have any doubts in running this project, you can contact me.
+PH no: 7200751953
 
 ## Features
 
